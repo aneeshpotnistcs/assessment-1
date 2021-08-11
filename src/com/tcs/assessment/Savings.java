@@ -21,32 +21,16 @@ public class Savings extends Account {
 		return createDate;
 	}
 
-	public void setCreateDate(Date createDate) {
-		this.createDate = createDate;
-	}
-
 	public float getBalance() {
 		return balance;
-	}
-
-	public void setBalance(float balance) {
-		this.balance = balance;
 	}
 
 	public boolean isType() {
 		return type;
 	}
 
-	public void setType(boolean type) {
-		this.type = type;
-	}
-
 	public String getStatus() {
 		return status;
-	}
-
-	public void setStatus(String status) {
-		this.status = status;
 	}
 
 }
